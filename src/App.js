@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Buttons from "./Buttons";
+// import { useState } from "react";
 
+
+// const numbers = () => {
+  // const [rezultat, setRezultat] = useState(0);
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="kalkulator">
+        <div className="display">
+          <h1>0</h1>
+        </div>
+        <div className="brojevi">
+          <button className="numbers">1</button>
+          <button className="numbers">2</button>
+          <button className="numbers">3</button>
+          <button className="numbers">4</button>
+          <button className="numbers">5</button>
+          <button className="numbers">6</button>
+          <button className="numbers">7</button>
+          <button className="numbers">8</button>
+          <button className="numbers">9</button>
+          <button className="numbers">0</button>
+        </div>
+        <div className="operacije"></div>
+      </div>
     </div>
   );
 }
