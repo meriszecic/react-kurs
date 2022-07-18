@@ -11,10 +11,12 @@ const Card = (props) => {
           onClick={() => {
             setIsChecked(!isChecked);
           }}
-        >
-          Check
+        >Check
         </button>
-        <button className="delete">Delete</button>
+        <button className="delete"
+        onClick={() => {
+          setIsChecked(isChecked ? "Delete" : "" )
+        } }>Delete</button>
       </div>
     </div>
   );
