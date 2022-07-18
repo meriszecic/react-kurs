@@ -1,0 +1,27 @@
+.container{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  overflow: hidden;
+  font-size: 35px;
+  position: relative;
+}
+.spiner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 15px transparent solid;
+  mix-blend-mode: overlay;
+}
+.spiner-red {
+  border-top-color: lightcoral; 
+}
+.spiner-blue {
+  border-top-color: lightblue; 
+}
+.spiner-green {
+  border-top-color: lightgreen; 
+}
