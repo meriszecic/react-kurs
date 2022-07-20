@@ -12,13 +12,13 @@
   width: 100wh;
   height: 100%;
 }
-.unos input{
+input{
   padding: 5px;
   font-size: 15px;
   border-radius: 10px;
   border-bottom-color: white;
 }
-.unos button{
+button{
   border-radius: 5px;
   margin-left: 2px;
 }
@@ -32,15 +32,29 @@
   width: 30px;
   height: 30px;
   border-color: green;
+  background-color:green ;
   font-size: 10px;
+  color:white;
   display: flex;
   justify-content: center;
-   align-items: center;
-   flex-direction: row;
+  align-items: center;
+  flex-direction: row;
 }
-.check:hover{
-  box-shadow: 0 0 25px green  ;
+.cartica{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.div.card.onClick{
-  border-color: green;
+.delete{margin: 2px;
+  width: 30px;
+  height: 30px;
+  border-color: red;
+  background-color:red ;
+  font-size: 10px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }

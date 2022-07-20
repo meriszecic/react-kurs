@@ -3,6 +3,7 @@ import { useState } from "react";
 const Card = (props) => {
   const [isChecked, setIsChecked] = useState(false);
   return (
+    <div className="cartica">
     <div className={`card ${isChecked ? "checked" : ""}`}>
       <p>{props.title}</p>
       <div>
@@ -15,10 +16,12 @@ const Card = (props) => {
         </button>
         <button className="delete"
         onClick={() => {
-          setIsChecked(isChecked ? "Delete" : "" )
+          setIsChecked(isChecked ? "delete" : "" )
         } }>Delete</button>
       </div>
     </div>
+    </div>
+
   );
 };
 

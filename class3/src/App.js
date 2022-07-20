@@ -19,6 +19,7 @@ const App = () => {
           onClick={() => {
             setData([...data, a]);
           }}
+        
         >
           Submit
         </button>
