@@ -1,0 +1,9 @@
+*{
+  border-spacing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+input{
+  opacity: 50%;
+  height: 70px;
+}
